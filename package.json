@@ -1,0 +1,24 @@
+{
+  "name": "unterrichtexpresshbs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW35D/demoHandlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FbW35D/demoHandlebars/issues"
+  },
+  "homepage": "https://github.com/FbW35D/demoHandlebars#readme",
+  "description": ""
+}

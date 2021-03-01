@@ -1,0 +1,34 @@
+* {
+background-color: black;
+text-align: center;
+color: white;
+}
+
+h1{
+  color: blue;
+}
+h2{
+  color: red;
+}
+
+p{
+  color: greenyellow;
+
+}
+
+div{
+  color:red;
+}
+
+.blink{
+  animation-name: animation_blink;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation_blink {
+  0% {opacity: 1;}
+  50% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
